@@ -1,0 +1,674 @@
+$date
+	Sun Aug 16 04:50:12 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench $end
+$var wire 1 ! t2_Y8 $end
+$var wire 1 " t2_Y4 $end
+$var wire 1 # t2_Y2 $end
+$var wire 1 $ t1_Y8 $end
+$var wire 1 % t1_Y4 $end
+$var wire 1 & t1_Y2 $end
+$var reg 1 ' t1_A2 $end
+$var reg 1 ( t1_A4 $end
+$var reg 1 ) t1_A8 $end
+$var reg 1 * t1_B2 $end
+$var reg 1 + t1_B4 $end
+$var reg 1 , t1_B8 $end
+$var reg 1 - t1_C2 $end
+$var reg 1 . t1_C4 $end
+$var reg 1 / t1_C8 $end
+$var reg 1 0 t2_A2 $end
+$var reg 1 1 t2_A4 $end
+$var reg 1 2 t2_A8 $end
+$var reg 1 3 t2_B2 $end
+$var reg 1 4 t2_B4 $end
+$var reg 1 5 t2_B8 $end
+$var reg 1 6 t2_C2 $end
+$var reg 1 7 t2_C4 $end
+$var reg 1 8 t2_C8 $end
+$scope module T1_2 $end
+$var wire 1 ' A $end
+$var wire 1 * B $end
+$var wire 1 - C $end
+$var wire 1 & y $end
+$scope module T1_2 $end
+$var wire 1 9 a0 $end
+$var wire 1 : a1 $end
+$var wire 1 ' s0 $end
+$var wire 1 & y $end
+$upscope $end
+$upscope $end
+$scope module T1_4 $end
+$var wire 1 ( A $end
+$var wire 1 + B $end
+$var wire 1 . C $end
+$var wire 1 % y $end
+$scope module T1_4 $end
+$var wire 1 . a0 $end
+$var wire 1 ; a1 $end
+$var wire 1 < a2 $end
+$var wire 1 . a3 $end
+$var wire 1 + s0 $end
+$var wire 1 ( s1 $end
+$var wire 1 = y1 $end
+$var wire 1 > y0 $end
+$var wire 1 % y $end
+$scope module m2 $end
+$var wire 1 + s0 $end
+$var wire 1 % y $end
+$var wire 1 > a1 $end
+$var wire 1 = a0 $end
+$upscope $end
+$scope module m2_1 $end
+$var wire 1 . a0 $end
+$var wire 1 ; a1 $end
+$var wire 1 ( s0 $end
+$var wire 1 = y $end
+$upscope $end
+$scope module m2_2 $end
+$var wire 1 < a0 $end
+$var wire 1 . a1 $end
+$var wire 1 ( s0 $end
+$var wire 1 > y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module T1_8 $end
+$var wire 1 ) A $end
+$var wire 1 , B $end
+$var wire 1 / C $end
+$var wire 1 ? H $end
+$var wire 1 @ L $end
+$var wire 1 $ y $end
+$scope module T1_8 $end
+$var wire 1 @ a0 $end
+$var wire 1 ? a1 $end
+$var wire 1 ? a2 $end
+$var wire 1 @ a3 $end
+$var wire 1 ? a4 $end
+$var wire 1 @ a5 $end
+$var wire 1 @ a6 $end
+$var wire 1 ? a7 $end
+$var wire 1 ) s0 $end
+$var wire 1 , s1 $end
+$var wire 1 / s2 $end
+$var wire 1 A y1 $end
+$var wire 1 B y0 $end
+$var wire 1 $ y $end
+$scope module m2 $end
+$var wire 1 ) s0 $end
+$var wire 1 $ y $end
+$var wire 1 B a1 $end
+$var wire 1 A a0 $end
+$upscope $end
+$scope module m4_1 $end
+$var wire 1 @ a0 $end
+$var wire 1 ? a1 $end
+$var wire 1 ? a2 $end
+$var wire 1 @ a3 $end
+$var wire 1 , s0 $end
+$var wire 1 / s1 $end
+$var wire 1 C y1 $end
+$var wire 1 D y0 $end
+$var wire 1 A y $end
+$scope module m2 $end
+$var wire 1 , s0 $end
+$var wire 1 A y $end
+$var wire 1 D a1 $end
+$var wire 1 C a0 $end
+$upscope $end
+$scope module m2_1 $end
+$var wire 1 @ a0 $end
+$var wire 1 ? a1 $end
+$var wire 1 / s0 $end
+$var wire 1 C y $end
+$upscope $end
+$scope module m2_2 $end
+$var wire 1 ? a0 $end
+$var wire 1 @ a1 $end
+$var wire 1 / s0 $end
+$var wire 1 D y $end
+$upscope $end
+$upscope $end
+$scope module m4_2 $end
+$var wire 1 ? a0 $end
+$var wire 1 @ a1 $end
+$var wire 1 @ a2 $end
+$var wire 1 ? a3 $end
+$var wire 1 , s0 $end
+$var wire 1 / s1 $end
+$var wire 1 E y1 $end
+$var wire 1 F y0 $end
+$var wire 1 B y $end
+$scope module m2 $end
+$var wire 1 , s0 $end
+$var wire 1 B y $end
+$var wire 1 F a1 $end
+$var wire 1 E a0 $end
+$upscope $end
+$scope module m2_1 $end
+$var wire 1 ? a0 $end
+$var wire 1 @ a1 $end
+$var wire 1 / s0 $end
+$var wire 1 E y $end
+$upscope $end
+$scope module m2_2 $end
+$var wire 1 @ a0 $end
+$var wire 1 ? a1 $end
+$var wire 1 / s0 $end
+$var wire 1 F y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module T2_2 $end
+$var wire 1 0 A $end
+$var wire 1 3 B $end
+$var wire 1 6 C $end
+$var wire 1 # y $end
+$scope module T2_2 $end
+$var wire 1 G a0 $end
+$var wire 1 H a1 $end
+$var wire 1 0 s0 $end
+$var wire 1 # y $end
+$upscope $end
+$upscope $end
+$scope module T2_4 $end
+$var wire 1 1 A $end
+$var wire 1 4 B $end
+$var wire 1 7 C $end
+$var wire 1 I L $end
+$var wire 1 " y $end
+$scope module T2_4 $end
+$var wire 1 J a0 $end
+$var wire 1 I a1 $end
+$var wire 1 7 a2 $end
+$var wire 1 K a3 $end
+$var wire 1 1 s0 $end
+$var wire 1 4 s1 $end
+$var wire 1 L y1 $end
+$var wire 1 M y0 $end
+$var wire 1 " y $end
+$scope module m2 $end
+$var wire 1 1 s0 $end
+$var wire 1 " y $end
+$var wire 1 M a1 $end
+$var wire 1 L a0 $end
+$upscope $end
+$scope module m2_1 $end
+$var wire 1 J a0 $end
+$var wire 1 I a1 $end
+$var wire 1 4 s0 $end
+$var wire 1 L y $end
+$upscope $end
+$scope module m2_2 $end
+$var wire 1 7 a0 $end
+$var wire 1 K a1 $end
+$var wire 1 4 s0 $end
+$var wire 1 M y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module T2_8 $end
+$var wire 1 2 A $end
+$var wire 1 5 B $end
+$var wire 1 8 C $end
+$var wire 1 N H $end
+$var wire 1 O L $end
+$var wire 1 ! y $end
+$scope module T2_8 $end
+$var wire 1 N a0 $end
+$var wire 1 N a1 $end
+$var wire 1 O a2 $end
+$var wire 1 O a3 $end
+$var wire 1 O a4 $end
+$var wire 1 N a5 $end
+$var wire 1 N a6 $end
+$var wire 1 O a7 $end
+$var wire 1 2 s0 $end
+$var wire 1 5 s1 $end
+$var wire 1 8 s2 $end
+$var wire 1 P y1 $end
+$var wire 1 Q y0 $end
+$var wire 1 ! y $end
+$scope module m2 $end
+$var wire 1 2 s0 $end
+$var wire 1 ! y $end
+$var wire 1 Q a1 $end
+$var wire 1 P a0 $end
+$upscope $end
+$scope module m4_1 $end
+$var wire 1 N a0 $end
+$var wire 1 N a1 $end
+$var wire 1 O a2 $end
+$var wire 1 O a3 $end
+$var wire 1 5 s0 $end
+$var wire 1 8 s1 $end
+$var wire 1 R y1 $end
+$var wire 1 S y0 $end
+$var wire 1 P y $end
+$scope module m2 $end
+$var wire 1 5 s0 $end
+$var wire 1 P y $end
+$var wire 1 S a1 $end
+$var wire 1 R a0 $end
+$upscope $end
+$scope module m2_1 $end
+$var wire 1 N a0 $end
+$var wire 1 N a1 $end
+$var wire 1 8 s0 $end
+$var wire 1 R y $end
+$upscope $end
+$scope module m2_2 $end
+$var wire 1 O a0 $end
+$var wire 1 O a1 $end
+$var wire 1 8 s0 $end
+$var wire 1 S y $end
+$upscope $end
+$upscope $end
+$scope module m4_2 $end
+$var wire 1 O a0 $end
+$var wire 1 N a1 $end
+$var wire 1 N a2 $end
+$var wire 1 O a3 $end
+$var wire 1 5 s0 $end
+$var wire 1 8 s1 $end
+$var wire 1 T y1 $end
+$var wire 1 U y0 $end
+$var wire 1 Q y $end
+$scope module m2 $end
+$var wire 1 5 s0 $end
+$var wire 1 Q y $end
+$var wire 1 U a1 $end
+$var wire 1 T a0 $end
+$upscope $end
+$scope module m2_1 $end
+$var wire 1 O a0 $end
+$var wire 1 N a1 $end
+$var wire 1 8 s0 $end
+$var wire 1 T y $end
+$upscope $end
+$scope module m2_2 $end
+$var wire 1 N a0 $end
+$var wire 1 O a1 $end
+$var wire 1 8 s0 $end
+$var wire 1 U y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+xU
+xT
+0S
+1R
+xQ
+xP
+0O
+1N
+xM
+xL
+xK
+xJ
+0I
+xH
+xG
+0F
+1E
+1D
+0C
+1B
+0A
+0@
+1?
+x>
+x=
+x<
+x;
+x:
+x9
+x8
+x7
+x6
+x5
+x4
+x3
+x2
+x1
+x0
+0/
+x.
+x-
+0,
+x+
+x*
+0)
+x(
+x'
+x&
+x%
+0$
+x#
+x"
+x!
+$end
+#1
+1$
+1A
+0B
+1C
+0D
+0E
+1F
+1/
+#2
+1$
+0C
+1D
+1E
+0F
+1A
+0B
+0/
+1,
+#3
+0$
+0A
+1B
+1C
+0D
+0E
+1F
+1/
+#4
+0C
+1D
+1E
+0F
+0A
+1B
+1$
+0/
+0,
+1)
+#5
+0$
+1A
+0B
+1C
+0D
+0E
+1F
+1/
+#6
+0$
+0C
+1D
+1E
+0F
+1A
+0B
+0/
+1,
+#7
+1$
+0A
+1B
+1C
+0D
+0E
+1F
+1/
+#8
+1>
+1;
+1<
+0%
+0=
+0.
+0+
+0(
+#9
+0>
+1%
+0;
+0<
+1=
+1.
+#10
+1>
+1;
+1<
+0=
+1%
+0.
+1+
+#11
+0%
+0>
+0;
+0<
+1=
+1.
+#12
+1%
+1;
+1<
+1=
+0.
+0+
+1(
+#13
+0%
+0=
+0;
+0<
+1>
+1.
+#14
+1=
+1;
+1<
+0>
+0%
+0.
+1+
+#15
+0=
+1%
+0;
+0<
+1>
+1.
+#16
+0&
+1:
+09
+0-
+0*
+0'
+#17
+1&
+0:
+19
+1-
+#18
+0-
+1*
+#19
+0&
+1:
+09
+1-
+#20
+1&
+0-
+0*
+1'
+#21
+0&
+0:
+19
+1-
+#22
+0-
+1*
+#23
+1&
+1:
+09
+1-
+#24
+0Q
+1!
+0T
+1U
+1P
+08
+05
+02
+#25
+1Q
+1T
+0U
+18
+#26
+0!
+0T
+1U
+0P
+1Q
+08
+15
+#27
+0Q
+1T
+0U
+18
+#28
+0!
+0T
+1U
+1P
+0Q
+08
+05
+12
+#29
+1!
+1Q
+1T
+0U
+18
+#30
+1!
+0T
+1U
+0P
+1Q
+08
+15
+#31
+0!
+0Q
+1T
+0U
+18
+#32
+1"
+1L
+1J
+1K
+0M
+07
+04
+01
+#33
+0"
+0L
+0J
+0K
+1M
+17
+#34
+1J
+1K
+1M
+07
+14
+#35
+0M
+0J
+0K
+17
+#36
+1L
+1J
+1K
+07
+04
+11
+#37
+0L
+1"
+0J
+0K
+1M
+17
+#38
+1"
+1J
+1K
+1M
+07
+14
+#39
+0"
+0M
+0J
+0K
+17
+#40
+1#
+1H
+1G
+06
+03
+00
+#41
+16
+#42
+0#
+0G
+06
+13
+#43
+0H
+16
+#44
+1#
+1H
+1G
+06
+03
+10
+#45
+16
+#46
+0G
+06
+13
+#47
+0#
+0H
+16
+#48
