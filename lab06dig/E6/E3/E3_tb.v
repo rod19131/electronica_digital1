@@ -32,3 +32,22 @@ module testbench();
         $dumpvars(0,testbench);
     end
 endmodule
+
+
+
+module Timer_a1(input Timer[0], output reg [2:0]Vlm1, output reg T1);
+    always @ (Timer1) begin
+        if (Timer1 == 0) begin
+            Vlm1 = 3'b000;
+            T1 = 0;
+        end 
+        while(Timer1) begin
+        #1 Vlm1 = 3'b000;
+        #9 Vlm1 = 3'b001;
+        #10 Vlm1 = 3'b010;
+        #10 Vlm1 = 3'b011;
+        #10 Vlm1 = 3'b000; T1 = 1;
+        #5 T1 = 0;    
+        end
+    end
+endmodule
