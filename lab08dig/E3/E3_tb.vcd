@@ -1,0 +1,244 @@
+$date
+	Sat Oct 24 22:49:32 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench $end
+$var wire 4 ! Y [3:0] $end
+$var reg 4 " A [3:0] $end
+$var reg 4 # B [3:0] $end
+$var reg 3 $ opcode [2:0] $end
+$scope module alu $end
+$var wire 4 % A [3:0] $end
+$var wire 4 & B [3:0] $end
+$var wire 3 ' opcode [2:0] $end
+$var reg 4 ( Y [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#1
+b0 !
+b0 (
+b0 $
+b0 '
+b0 #
+b0 &
+b0 "
+b0 %
+#2
+b1 "
+b1 %
+#3
+b1 #
+b1 &
+b0 "
+b0 %
+#4
+b1 !
+b1 (
+b1 "
+b1 %
+#5
+b110 !
+b110 (
+b110 #
+b110 &
+b110 "
+b110 %
+#6
+b10 !
+b10 (
+b10 #
+b10 &
+b11 "
+b11 %
+#7
+b0 !
+b0 (
+b1 $
+b1 '
+b0 #
+b0 &
+b0 "
+b0 %
+#8
+b1 !
+b1 (
+b1 #
+b1 &
+#9
+b0 #
+b0 &
+b1 "
+b1 %
+#10
+b1010 !
+b1010 (
+b10 #
+b10 &
+b1010 "
+b1010 %
+#11
+b0 !
+b0 (
+b10 $
+b10 '
+b0 #
+b0 &
+b0 "
+b0 %
+#12
+b1011 !
+b1011 (
+b11 #
+b11 &
+b1000 "
+b1000 %
+#13
+b1 !
+b1 (
+b1 #
+b1 &
+b0 "
+b0 %
+#14
+b11 !
+b11 (
+b10 #
+b10 &
+b1 "
+b1 %
+#15
+b110 !
+b110 (
+b101 #
+b101 &
+#16
+b0 !
+b0 (
+b11 $
+b11 '
+b0 #
+b0 &
+b0 "
+b0 %
+#17
+b110 #
+b110 &
+b1 "
+b1 %
+#18
+b100 $
+b100 '
+b0 #
+b0 &
+b0 "
+b0 %
+#19
+b1 !
+b1 (
+b1 "
+b1 %
+#20
+b10 !
+b10 (
+b1 #
+b1 &
+b11 "
+b11 %
+#21
+b100 !
+b100 (
+b10 #
+b10 &
+b100 "
+b100 %
+#22
+b1111 !
+b1111 (
+b101 $
+b101 '
+b0 #
+b0 &
+b0 "
+b0 %
+#23
+b1110 !
+b1110 (
+b1 #
+b1 &
+#24
+b1111 !
+b1111 (
+b0 #
+b0 &
+b10 "
+b10 %
+#25
+b0 !
+b0 (
+b110 $
+b110 '
+b0 "
+b0 %
+#26
+b1 !
+b1 (
+b1 "
+b1 %
+#27
+b0 !
+b0 (
+b10 #
+b10 &
+b10 "
+b10 %
+#28
+b11 !
+b11 (
+b1 #
+b1 &
+b100 "
+b100 %
+#29
+b0 !
+b0 (
+b111 $
+b111 '
+b11 #
+b11 &
+b11 "
+b11 %
+#30
+b1 !
+b1 (
+b111 #
+b111 &
+b110 "
+b110 %
+#31
+b0 !
+b0 (
+b10 #
+b10 &
+b100 "
+b100 %
+#32
+b101 "
+b101 %
+#40
