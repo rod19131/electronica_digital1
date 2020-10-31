@@ -1,0 +1,253 @@
+$date
+	Thu Oct 29 23:13:16 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench $end
+$var wire 4 ! q [3:0] $end
+$var reg 1 " clk $end
+$var reg 4 # d [3:0] $end
+$var reg 1 $ enable $end
+$var reg 1 % rst $end
+$scope module ffd4 $end
+$var wire 1 " clk $end
+$var wire 4 & d [3:0] $end
+$var wire 1 $ enable $end
+$var wire 1 % rst $end
+$var wire 4 ' q [3:0] $end
+$scope module df2_0 $end
+$var wire 1 " clk $end
+$var wire 2 ( d [1:0] $end
+$var wire 1 $ enable $end
+$var wire 1 % rst $end
+$var wire 2 ) q [1:0] $end
+$scope module df1_0 $end
+$var wire 1 " clk $end
+$var wire 1 * d $end
+$var wire 1 $ enable $end
+$var wire 1 % rst $end
+$var reg 1 + q $end
+$upscope $end
+$scope module df1_1 $end
+$var wire 1 " clk $end
+$var wire 1 , d $end
+$var wire 1 $ enable $end
+$var wire 1 % rst $end
+$var reg 1 - q $end
+$upscope $end
+$upscope $end
+$scope module df2_1 $end
+$var wire 1 " clk $end
+$var wire 2 . d [1:0] $end
+$var wire 1 $ enable $end
+$var wire 1 % rst $end
+$var wire 2 / q [1:0] $end
+$scope module df1_0 $end
+$var wire 1 " clk $end
+$var wire 1 0 d $end
+$var wire 1 $ enable $end
+$var wire 1 % rst $end
+$var reg 1 1 q $end
+$upscope $end
+$scope module df1_1 $end
+$var wire 1 " clk $end
+$var wire 1 2 d $end
+$var wire 1 $ enable $end
+$var wire 1 % rst $end
+$var reg 1 3 q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x3
+02
+x1
+00
+bx /
+b0 .
+x-
+0,
+x+
+0*
+bx )
+b0 (
+bx '
+b0 &
+0%
+0$
+b0 #
+0"
+bx !
+$end
+#1
+03
+b0 /
+01
+0-
+b0 !
+b0 '
+b0 )
+0+
+1%
+#2
+0%
+#3
+12
+1*
+b10 .
+b1 (
+b1001 #
+b1001 &
+#5
+1"
+#8
+02
+0*
+b0 .
+b0 (
+b0 #
+b0 &
+#10
+0"
+#13
+10
+1*
+b1 .
+b1 (
+b101 #
+b101 &
+1$
+#15
+b1 /
+11
+b101 !
+b101 '
+b1 )
+1+
+1"
+#20
+0"
+#23
+00
+0*
+b0 .
+b0 (
+b0 #
+b0 &
+#25
+b0 )
+0+
+b0 !
+b0 '
+b0 /
+01
+1"
+#30
+0"
+#33
+10
+1,
+1*
+b1 .
+b11 (
+b111 #
+b111 &
+0$
+#35
+1"
+#40
+0"
+#43
+00
+0,
+0*
+b0 .
+b0 (
+b0 #
+b0 &
+#45
+1"
+#50
+0"
+#53
+12
+10
+1,
+1*
+b11 .
+b11 (
+b1111 #
+b1111 &
+1$
+#55
+13
+b11 /
+11
+1-
+b1111 !
+b1111 '
+b11 )
+1+
+1"
+#60
+0"
+#63
+0+
+b0 )
+0-
+01
+b0 !
+b0 '
+b0 /
+03
+02
+00
+0,
+0*
+b0 .
+b0 (
+b0 #
+b0 &
+1%
+#64
+0%
+#65
+1"
+#70
+0"
+#75
+1"
+#80
+0"
+#85
+1"
+#90
+0"
+#95
+1"
+#100
+0"
+#105
+1"
+#110
+0"
+#115
+1"
+#120
+0"
+#125
+1"
+#130
+0"
+#135
+1"
+#140
+0"
+#144

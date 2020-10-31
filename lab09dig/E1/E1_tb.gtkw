@@ -1,0 +1,26 @@
+[*]
+[*] GTKWave Analyzer v3.3.77 (w)1999-2016 BSI
+[*] Thu Oct 29 19:05:47 2020
+[*]
+[dumpfile] "D:\AlejandroDigital\electronica_digital1\lab09dig\E1\E1_tb.vcd"
+[dumpfile_mtime] "Thu Oct 29 18:56:00 2020"
+[dumpfile_size] 796
+[savefile] "D:\AlejandroDigital\electronica_digital1\lab09dig\E1\E1_tb.gtkw"
+[timestart] 0
+[size] 859 792
+[pos] 615 -53
+*-5.203590 38 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 197
+[signals_width] 143
+[sst_expanded] 1
+[sst_vpaned_height] 221
+@28
+testbench.clk
+testbench.d
+testbench.enable
+@29
+testbench.q
+@28
+testbench.rst
+[pattern_trace] 1
+[pattern_trace] 0
