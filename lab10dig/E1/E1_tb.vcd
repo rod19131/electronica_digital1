@@ -1,0 +1,400 @@
+$date
+	Sat Nov 07 21:01:04 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench $end
+$var wire 8 ! program_byte [7:0] $end
+$var wire 4 " oprnd [3:0] $end
+$var wire 4 # instr [3:0] $end
+$var reg 1 $ clk $end
+$var reg 1 % enabled $end
+$var reg 1 & load $end
+$var reg 12 ' loadvalue [11:0] $end
+$var reg 1 ( rst $end
+$scope module COUNT_ROM_FETCHU $end
+$var wire 1 $ clk $end
+$var wire 1 % enabled $end
+$var wire 1 & load $end
+$var wire 12 ) loadvalue [11:0] $end
+$var wire 1 ( rst $end
+$var wire 8 * program_byte [7:0] $end
+$var wire 4 + oprnd [3:0] $end
+$var wire 4 , instr [3:0] $end
+$var wire 12 - counter [11:0] $end
+$scope module FETCH $end
+$var wire 1 $ clk $end
+$var wire 1 % enable $end
+$var wire 1 ( rst $end
+$var wire 8 . d [7:0] $end
+$var reg 4 / instr [3:0] $end
+$var reg 4 0 oprnd [3:0] $end
+$upscope $end
+$scope module rom $end
+$var wire 8 1 data [7:0] $end
+$var wire 12 2 direccion [11:0] $end
+$upscope $end
+$scope module upcounter $end
+$var wire 1 % Enabled $end
+$var wire 1 & Load $end
+$var wire 12 3 Loadvalue [11:0] $end
+$var wire 1 $ clk $end
+$var wire 1 ( rst $end
+$var wire 12 4 counter [11:0] $end
+$var reg 12 5 counter_up [11:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 5
+bx 4
+b0 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+bx +
+bx *
+b0 )
+0(
+b0 '
+0&
+0%
+0$
+bx #
+bx "
+bx !
+$end
+#1
+b0 "
+b0 +
+b0 0
+b0 #
+b0 ,
+b0 /
+b1 !
+b1 *
+b1 .
+b1 1
+b0 -
+b0 2
+b0 4
+b0 5
+1(
+#2
+1%
+0(
+#5
+b1 "
+b1 +
+b1 0
+b10 !
+b10 *
+b10 .
+b10 1
+b1 -
+b1 2
+b1 4
+b1 5
+1$
+#10
+0$
+#15
+b10 "
+b10 +
+b10 0
+b100 !
+b100 *
+b100 .
+b100 1
+b10 -
+b10 2
+b10 4
+b10 5
+1$
+#20
+0$
+#22
+0%
+#25
+1$
+#30
+0$
+#35
+1$
+#40
+0$
+#45
+1$
+#50
+0$
+#55
+1$
+#60
+0$
+#62
+b1000 '
+b1000 )
+b1000 3
+1%
+#65
+b100 "
+b100 +
+b100 0
+b1000 !
+b1000 *
+b1000 .
+b1000 1
+b11 -
+b11 2
+b11 4
+b11 5
+1$
+#70
+0$
+#75
+b1000 "
+b1000 +
+b1000 0
+b10000 !
+b10000 *
+b10000 .
+b10000 1
+b100 -
+b100 2
+b100 4
+b100 5
+1$
+#80
+0$
+#85
+b0 "
+b0 +
+b0 0
+b1 #
+b1 ,
+b1 /
+b100000 !
+b100000 *
+b100000 .
+b100000 1
+b101 -
+b101 2
+b101 4
+b101 5
+1$
+#90
+0$
+#92
+b10000001 !
+b10000001 *
+b10000001 .
+b10000001 1
+b1000 -
+b1000 2
+b1000 4
+b1000 5
+1&
+#95
+b1 "
+b1 +
+b1 0
+b1000 #
+b1000 ,
+b1000 /
+1$
+#100
+0$
+#105
+1$
+#110
+0$
+#115
+1$
+#120
+0$
+#122
+0&
+#125
+b1000010 !
+b1000010 *
+b1000010 .
+b1000010 1
+b1001 -
+b1001 2
+b1001 4
+b1001 5
+1$
+#130
+0$
+#135
+b10 "
+b10 +
+b10 0
+b100 #
+b100 ,
+b100 /
+bx !
+bx *
+bx .
+bx 1
+b1010 -
+b1010 2
+b1010 4
+b1010 5
+1$
+#140
+0$
+#142
+b0 "
+b0 +
+b0 0
+b0 #
+b0 ,
+b0 /
+b1 !
+b1 *
+b1 .
+b1 1
+b0 -
+b0 2
+b0 4
+b0 5
+b1100110 '
+b1100110 )
+b1100110 3
+0%
+1(
+#143
+0(
+#144
+bx !
+bx *
+bx .
+bx 1
+b1100110 -
+b1100110 2
+b1100110 4
+b1100110 5
+1&
+1%
+#145
+bx "
+bx +
+bx 0
+bx #
+bx ,
+bx /
+b1100111 -
+b1100111 2
+b1100111 4
+b1100111 5
+0&
+1$
+#146
+b10 !
+b10 *
+b10 .
+b10 1
+b1 -
+b1 2
+b1 4
+b1 5
+b1 '
+b1 )
+b1 3
+1&
+#147
+0&
+#150
+0$
+#155
+b10 "
+b10 +
+b10 0
+b0 #
+b0 ,
+b0 /
+b100 !
+b100 *
+b100 .
+b100 1
+b10 -
+b10 2
+b10 4
+b10 5
+1$
+#160
+0$
+#165
+b100 "
+b100 +
+b100 0
+b1000 !
+b1000 *
+b1000 .
+b1000 1
+b11 -
+b11 2
+b11 4
+b11 5
+1$
+#170
+0$
+#175
+b1000 "
+b1000 +
+b1000 0
+b10000 !
+b10000 *
+b10000 .
+b10000 1
+b100 -
+b100 2
+b100 4
+b100 5
+1$
+#180
+0$
+#185
+b0 "
+b0 +
+b0 0
+b1 #
+b1 ,
+b1 /
+b100000 !
+b100000 *
+b100000 .
+b100000 1
+b101 -
+b101 2
+b101 4
+b101 5
+1$
+#190
+0$
+#195
+b10 #
+b10 ,
+b10 /
+b1000000 !
+b1000000 *
+b1000000 .
+b1000000 1
+b110 -
+b110 2
+b110 4
+b110 5
+1$
+#200
+0$
