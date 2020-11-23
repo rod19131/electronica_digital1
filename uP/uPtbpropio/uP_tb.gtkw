@@ -1,0 +1,43 @@
+[*]
+[*] GTKWave Analyzer v3.3.77 (w)1999-2016 BSI
+[*] Mon Nov 23 02:31:56 2020
+[*]
+[dumpfile] "D:\AlejandroDigital\electronica_digital1\uP\uPtbpropio\uP_tb.vcd"
+[dumpfile_mtime] "Mon Nov 23 02:27:58 2020"
+[dumpfile_size] 36913
+[savefile] "D:\AlejandroDigital\electronica_digital1\uP\uPtbpropio\uP_tb.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] 331 -65
+*-5.000000 8 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbench.
+[treeopen] testbench.uPmodulue.
+[sst_width] 197
+[signals_width] 222
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@22
+testbench.FF_out[3:0]
+testbench.PC[11:0]
+testbench.accu[3:0]
+testbench.address_RAM[11:0]
+@28
+testbench.c_flag
+testbench.clock
+@22
+testbench.data_bus[3:0]
+testbench.instr[3:0]
+testbench.oprnd[3:0]
+@28
+testbench.phase
+@22
+testbench.program_byte[7:0]
+@420
+testbench.puntos
+@22
+testbench.pushbuttons[3:0]
+@28
+testbench.reset
+testbench.z_flag
+[pattern_trace] 1
+[pattern_trace] 0
